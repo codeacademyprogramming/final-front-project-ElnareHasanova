@@ -366,6 +366,15 @@ h3 {
     .container{
         max-width: 720px !important;
     }
+    #navigation-mobile{
+        padding: 0;
+    }
+    #navigation-mobile ul{
+        display: block !important;
+    }
+    #navigation{
+        display: none;
+    }
     .row{
         margin-left: -15px !important;
         margin-right: -15px !important;
@@ -420,7 +429,15 @@ h3 {
     .vc_col-sm-6 {
         width: 100% !important;
     }
-    
+    #navigation-mobile{
+        padding: 0;
+    }
+    #navigation-mobile ul{
+        display: block !important;
+    }
+    #navigation{
+        display: none;
+    }
     .vc_column_container>.vc_column-inner {
         padding-left: 0 !important;
       

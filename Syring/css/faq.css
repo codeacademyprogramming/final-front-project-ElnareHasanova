@@ -326,6 +326,15 @@ li.active_c .title-text h5 {
   .col-sm-6 {
     width: 50%;
   }
+  #navigation-mobile{
+    padding: 0;
+}
+#navigation-mobile ul{
+    display: block !important;
+}
+#navigation{
+    display: none;
+}
 
   #form-section {
     float: right;
@@ -408,6 +417,15 @@ li.active_c .title-text h5 {
   display: flex;
   flex-wrap: wrap;
   }
+  #navigation-mobile{
+    padding: 0;
+}
+#navigation-mobile ul{
+    display: block !important;
+}
+#navigation{
+    display: none;
+}
   .vc_tta-tabs-container {
     padding-left: 15px !important;
     width: 100% !important;

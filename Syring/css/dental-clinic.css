@@ -850,6 +850,15 @@ select {
     .department-page-title-wrap {
         width: 87% !important;
     }
+    #navigation-mobile{
+        padding: 0;
+    }
+    #navigation-mobile ul{
+        display: block !important;
+    }
+    #navigation{
+        display: none;
+    }
 
     .recent-item {
         width: 210px !important;
@@ -989,6 +998,15 @@ select {
         padding: 30px 15px 63px;
 
         margin-left: 12px;
+    }
+    #navigation-mobile{
+        padding: 0;
+    }
+    #navigation-mobile ul{
+        display: block !important;
+    }
+    #navigation{
+        display: none;
     }
 
     .full-page {

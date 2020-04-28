@@ -377,6 +377,15 @@ h5 {
     .full-page{
         overflow: hidden;
     }
+    #navigation-mobile{
+        padding: 0;
+    }
+    #navigation-mobile ul{
+        display: block !important;
+    }
+    #navigation{
+        display: none;
+    }
     #form-section {
         float: right;
     }
@@ -476,6 +485,15 @@ h5 {
         font-size: 30px !important;
         line-height: 40px !important;
     }
+    #navigation-mobile{
+        padding: 0;
+    }
+    #navigation-mobile ul{
+        display: block !important;
+    }
+    #navigation{
+        display: none;
+    }
     .main-left{
         padding-left: 0;
         width: 375px;
@@ -518,6 +536,7 @@ h5 {
     .section1{
         width: 375px !important;
         height: auto !important;
+        padding-top: 70px;
     }
     .content_2{
         width: 375px;

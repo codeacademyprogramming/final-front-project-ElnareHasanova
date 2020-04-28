@@ -45,3 +45,26 @@
     background-color: rgba(0, 125, 242, 1);
     border-width: 0px 0px 0px 0px;
 }
+@media (max-width: 768px) {
+    #navigation-mobile{
+        padding: 0;
+    }
+    #navigation-mobile ul{
+        display: block !important;
+    }
+    #navigation{
+        display: none;
+    }
+    
+}
+@media (max-width: 375px) {
+    #navigation-mobile{
+        padding: 0;
+    }
+    #navigation-mobile ul{
+        display: block !important;
+    }
+    #navigation{
+        display: none;
+    }
+}

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+ 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,11 +14,11 @@
     <link rel="stylesheet" href="css/blog.css">
     <title>Syring|Blog</title>
 </head>
-
+ 
 <body>
     <div class="full-page">
-
-
+ 
+ 
         <!-- HEADER & NAVIGATION BAR -->
         <header>
             <div id="header-top" class="header-top clearfix">
@@ -151,7 +151,11 @@
                                     <sup><span class="cart_total">0</span></sup>
                                     <div class="mini-cart mousewheel open">
                                         <div class="mousewheel-inner widget_shopping_cart">
-                                            <p class="woocommerce-mini-cart__empty-message">No products in the basket.</p>
+                                            <ul class="cart_list"></ul>
+                                            <p class="empty-msg">No products in the basket.</p>
+                                            <p class="total">
+                                            <strong>Subtotal:</strong><span class="Price"><span class="">$</span>39.99</span></p>
+                                            <p class="buttons"><a href="cart.html" class="">View basket</a><a href="checkout.html" class="">Checkout</a></p>
                                         </div>
                                     </div>
                                     <a href="javascript:void(0)" id="menu-mobile" class="menu-mobile header-icon d-xl-none"
@@ -164,7 +168,7 @@
                     </div>
                 </div>
                 <nav id="navigation-mobile" class="navbar col-md-12 col-sm-12">
-                    <ul id="menu-main-menu" class="main-nav desktop-nav d-block">
+                    <ul id="menu-main-menu" class="main-nav desktop-nav ">
                         <li class="nav-item"><a href="index.html" class="nav-link"><span>Home</span></a></li>
                         <li class="nav-item pages">
                             <a href="#" class="nav-link"><span>Pages</span></a>
@@ -572,8 +576,8 @@
                                 <a rel="nofollow" id="cancel-comment-reply-link"
                                     href="/no-more-counting-sheep-proven-behaviors-to-help-you-sleep-copy-2/#respond"
                                     style="display:none;">Cancel reply</a></small></h3>
-                        <form action="https://syring.spyropress.com/wp-comments-post.php" method="post" id="commentform"
-                            class="comment-form" novalidate="">
+                        <form action="blog.html" method="post" id="commentform"
+                            class="comment-form" novalidate="" onsubmit="return false">
                             Your email address will not be published. Required fields are marked *
                             <div class="row">
                                 <div class="col-md-12 padding">
@@ -584,7 +588,7 @@
                                 </div>
                                 <div class="col-md-12 padding">
                                     <p class="comment-form-email">
-                                        <input id="email" name="email" type="text" value="" size="30"
+                                        <input id="email" name="email" type="email" value="" size="30"
                                             aria-required="true" required="required" placeholder="Your Email*">
                                     </p>
                                 </div>
@@ -595,8 +599,6 @@
                             </p>
                             <p class="form-submit">
                                 <input name="submit" type="submit" id="submit" class="submit" value="Leave a comment">
-                                <input type="hidden" name="comment_post_ID" value="44" id="comment_post_ID">
-                                <input type="hidden" name="comment_parent" id="comment_parent" value="0">
                             </p>
                             <p style="display: none;">
                                 <input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce"
@@ -676,7 +678,7 @@
     <div class="footer">
         <div class="container">
             <div class="row_list">
-
+ 
                 <div class="wpb_column vc_column_container vc_col-sm-3 vc_col-md-4">
                     <div class="inner">
                         <div class="wpb_wrapper">
@@ -694,7 +696,7 @@
                             </div>
                         </div>
                     </div>
-
+ 
                 </div>
                 <div class="wpb_column vc_column_container vc_col-sm-3 vc_col-md-4">
                     <div class="inner">
@@ -735,10 +737,10 @@
                                     <br>
                                     United State.
                                     <br>
-
+ 
                                     info@yourdomain.com
                                     <br>
-
+ 
                                     +(123) 1800-88-66
                                 </p>
                             </div>
@@ -757,14 +759,14 @@
                             </div>
                         </div>
                     </div>
-
+ 
                 </div>
                 <div class="wpb_column vc_column_container vc_col-sm-3 vc_col-md-4">
                     <div class="wpb_wrapper">
                         <h3 class="footer-title left">Instagram</h3>
                         <div class="red-instagram layout-default">
                             <div class="row gutters-5 clearfix">
-
+ 
                                 <div class="instagram-item col-4 overlay-wrap">
                                     <a href="https://www.instagram.com/">
                                         <img class="icon" src="images/footer-img1.jpg" alt="">
@@ -772,7 +774,7 @@
                                     <div class="hover">
                                         <i class="fab fa-instagram"></i>
                                     </div>
-
+ 
                                 </div>
                                 <div class="instagram-item col-4 overlay-wrap">
                                     <a href="https://www.instagram.com/">
@@ -789,7 +791,7 @@
                                     <div class="hover">
                                         <i class="fab fa-instagram"></i>
                                     </div>
-
+ 
                                 </div>
                                 <div class="instagram-item col-4 overlay-wrap">
                                     <a href="https://www.instagram.com/">
@@ -798,7 +800,7 @@
                                     <div class="hover">
                                         <i class="fab fa-instagram"></i>
                                     </div>
-
+ 
                                 </div>
                                 <div class="instagram-item col-4 overlay-wrap">
                                     <a href="https://www.instagram.com/">
@@ -807,7 +809,7 @@
                                     <div class="hover">
                                         <i class="fab fa-instagram"></i>
                                     </div>
-
+ 
                                 </div>
                                 <div class="instagram-item col-4 overlay-wrap">
                                     <a href="https://www.instagram.com/">
@@ -816,14 +818,14 @@
                                     <div class="hover">
                                         <i class="fab fa-instagram"></i>
                                     </div>
-
+ 
                                 </div>
                             </div>
-
+ 
                         </div>
                     </div>
                 </div>
-
+ 
             </div>
             <div class="footer-bottom">
                 <div class="left">
@@ -832,7 +834,7 @@
                     </div>
                 </div>
                 <div class="right">
-
+ 
                     <div class="condition">
                         <a href="#">
                             Term & Conditions
@@ -841,7 +843,7 @@
                     <div class="condition">
                         <a href="#">Privacy Policy</a>
                     </div>
-
+ 
                 </div>
             </div>
         </div>
@@ -849,17 +851,19 @@
     <!-- BACK TO TOP -->
     <a href="#" class="back-top back-top-visible"><i class="fas fa-chevron-up" aria-hidden="true"></i></a>
 </div>
-
-
+ 
+ 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/jquery.themepunch.revolution.min.js"></script>
     <script src="js/jquery.themepunch.tools.min.js"></script>
+    <script src="js/blog.js"></script>
     <script src="js/script.js"></script>
     <script>
         AOS.init();
     </script>
 </body>
-
+ 
 </html>
+

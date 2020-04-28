@@ -22,6 +22,9 @@ $('.home-blogs').owlCarousel({
         813:{
             items: 1,
         },
+        375:{
+            items : 1,
+        },
     }
 })
 

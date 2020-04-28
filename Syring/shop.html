@@ -145,14 +145,17 @@
                                         <span class="modal-close"><i class="fas fa-times"></i></span>
                                     </div>
                                     <a href="#header-cart" class="header-icon header-cart">
-                                        <span class="flaticon-shopping-cart">
-                                    </a>
-                                    <sup><span class="cart_total">0</span></sup>
-                                    <div class="mini-cart mousewheel open">
+                                        <span class="flaticon-shopping-cart"></a>
+                                        <sup><span class="cart_total">0</span></sup>
+                                        <div class="mini-cart mousewheel open">
                                         <div class="mousewheel-inner widget_shopping_cart">
-                                            <p class="woocommerce-mini-cart__empty-message">No products in the basket.</p>
-                                        </div>
-                                    </div>
+                                        <ul class="cart_list"></ul>
+                                         <p class="empty-msg">No products in the basket.</p>
+                                        <p class="total">
+                                        <strong>Subtotal:</strong><span class="Price"><span class="">$</span>39.99</span></p>
+                                                                                    <p class="buttons"><a href="cart.html" class="">View basket</a><a href="checkout.html" class="">Checkout</a></p>
+                                                                                </div>
+                                                                            </div>
                                     <a href="javascript:void(0)" id="menu-mobile" class="menu-mobile header-icon d-xl-none"
                                         title="Open Menu">
                                         <i class="fas fa-bars"></i>
@@ -162,8 +165,8 @@
                         </div>
                     </div>
                 </div>
-                <nav id="navigation-mobile" class="navbar col-md-12 col-sm-12">
-                    <ul id="menu-main-menu" class="main-nav desktop-nav d-block">
+                 <nav id="navigation-mobile" class="navbar col-md-12 col-sm-12" >
+                    <ul id="menu-main-menu" class="main-nav desktop-nav ">
                         <li class="nav-item"><a href="index.html" class="nav-link"><span>Home</span></a></li>
                         <li class="nav-item pages">
                             <a href="#" class="nav-link"><span>Pages</span></a>
@@ -220,7 +223,7 @@
                         </li>
                         <li class="nav-item"><a href="#" class="nav-link"><span>Elements</span></a></li>
                     </ul>
-                </nav>
+                </nav> 
             </div>
     
         </header>
@@ -610,10 +613,16 @@
                             <h3 class="pro-title">
                                 <span>Filter by price</span>
                             </h3>
-                            <form action="" method="get">
-                              
- 
-                            </form>
+                            <div class="slidecontainer">
+                                <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                              </div>
+                              <div class="price-label">
+                                  
+                        Price: 
+                        <span>$10</span>
+                        — 
+                        <span>$40</span>
+                              </div>
                         </aside>
                         <aside>
                             <h3 class="pro-title">
@@ -621,6 +630,7 @@
                             </h3>
                             <ul class="product-list">
                                 <li>
+                                
                                     <a href="">
                                         <img src="images/product2.jpg" alt="">
                                         <span class="product-title">Family First Aid Kit</span>

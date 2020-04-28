@@ -506,6 +506,15 @@ blockquote:before {
         padding-bottom: 53px;
         height: 360px;
     }
+    #navigation-mobile{
+        padding: 0;
+    }
+    #navigation-mobile ul{
+        display: block !important;
+    }
+    #navigation{
+        display: none;
+    }
 }
  
 @media (max-width: 375px) {
@@ -516,6 +525,22 @@ blockquote:before {
         padding-right: 15px;
         padding-left: 30px !important;
      
+    }
+    .content-right .content-main{
+        display: block !important;
+    }
+    .column_inner{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    #navigation-mobile{
+        padding: 0;
+    }
+    #navigation-mobile ul{
+        display: block !important;
+    }
+    #navigation{
+        display: none;
     }
     .column-inner-dr{
         padding-right: 20px;

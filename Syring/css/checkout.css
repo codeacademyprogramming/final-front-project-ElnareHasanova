@@ -411,6 +411,30 @@ table.order_details th {
    .column>p {
        width: 110px;
    }
+   #navigation-mobile{
+    padding: 0;
+}
+#navigation-mobile ul{
+    display: block !important;
+}
+#navigation{
+    display: none;
+}
+.checkout-heading{
+    width: 768px;
+}
+.checkOut{
+    width: 768px;
+}
+.content-area{
+    padding-left: 0;
+}
+.check-main{
+    max-width: 768px;
+    padding-left: 0;
+    padding-right: 0;
+
+}
 
 }
 
@@ -442,6 +466,12 @@ table.order_details th {
     }
     .col-2{
         max-width: 95% !important;
+    }
+    #navigation-mobile{
+        padding: 0;
+    }
+    #navigation-mobile ul{
+        display: block !important;
     }
 
 /* foooter */

@@ -144,7 +144,7 @@ $(function () {
             document.querySelector('#basket-count').innerText = basket.length; // document.querySelector('#basket-count').innerText = basket.reduce((t, p) => t + p.count, 0);
         }
 
-
+      
 
     })
 })
