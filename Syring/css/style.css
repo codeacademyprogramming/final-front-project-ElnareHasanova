@@ -2133,9 +2133,7 @@ span.Price{
     #rev_main-slider{
         height: 758px;
     }
-    .owl-stage{
-        display: flex !important;
-    }
+  
     .blog-owl{
         margin-left: 30px;
         margin-right: 30px;
