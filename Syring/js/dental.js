@@ -52,6 +52,7 @@ $(document).on("click",".md-close",function () {
       ====================================== */
   
   $('[data-fancybox = "images"]').fancybox({
+    loop: true,
    
           'transitionIn': 'elastic',
         'transitionOut': 'elastic',
