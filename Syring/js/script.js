@@ -30,14 +30,12 @@ $(document).on('click', '.header-cart', function () {
 })
 
 $(document).on('mouseenter', '.static-nav .nav-link', function () {
+    $('.static-nav .sub_menu').hide();
     $(this).next().show();
-    // $(this).next().css('visibility', 'visible');
-    $(this).next().css('top', '101px');
+ 
 })
-$(document).on('mouseleave', '.sub_menu', function () {
-    $(this).hide();
-    // $(this).css('visibility', 'hidden');
-    $(this).css('top', '200px');
+$(document).on('mouseleave', '.static-nav', function () {
+    $('.static-nav .sub_menu').hide();
 })
 
 
