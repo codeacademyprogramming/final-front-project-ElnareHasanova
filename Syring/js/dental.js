@@ -52,7 +52,8 @@ $(document).on("click",".md-close",function () {
       ====================================== */
   
   $('[data-fancybox = "images"]').fancybox({
-    loop: true,
+         loop:true,
+
    
           'transitionIn': 'elastic',
         'transitionOut': 'elastic',
@@ -63,10 +64,11 @@ $(document).on("click",".md-close",function () {
            'fullScreen',
            'thumbs',
              'zoom',
-             'close',
+             'close'
          
           
-        ],
+        ]
+        
       
   })
 
