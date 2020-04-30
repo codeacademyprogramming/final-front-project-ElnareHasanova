@@ -571,6 +571,9 @@ blockquote:before {
     .full-page{
         overflow: hidden;
     }
+    #header-top{
+		display: none !important;
+	}
     .dr-content-left {
         padding-right: 15px;
         padding-left: 30px !important;

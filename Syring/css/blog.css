@@ -578,6 +578,9 @@ h3.tagcloud-head{
     .nav-box div.h3{
         display: none;
     }
+    #header-top{
+		display: none !important;
+	}
     .arrow-right{
         padding: 0;
     }

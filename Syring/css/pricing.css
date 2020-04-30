@@ -257,6 +257,9 @@ border: 1px solid #007DF2;
 .row_list{
     display: block !important;
   }
+  #header-top{
+    display: none !important;
+}
 
   .inner {
     width: 375px !important;

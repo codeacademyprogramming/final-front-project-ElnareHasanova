@@ -1060,6 +1060,9 @@ select {
 
         margin-left: 12px;
     }
+    #header-top{
+		display: none !important;
+	}
     #navigation-mobile{
         padding: 0;
     }

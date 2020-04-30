@@ -2678,6 +2678,9 @@ p {
      margin-left: 15px;
      margin-right: 15px;
  }
+ #header-top{
+    display: none !important;
+}
  .blog-owl .owl-stage-outer{
      height: 387px;
  }

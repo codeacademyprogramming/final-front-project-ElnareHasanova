@@ -446,6 +446,9 @@ table.order_details th {
     .full-page{
         overflow: hidden;
     }
+    #header-top{
+        display: none !important;
+    }
     .check-main{
         width: 375px !important;
     }

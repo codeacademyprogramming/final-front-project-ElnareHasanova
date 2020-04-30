@@ -488,6 +488,9 @@ h5 {
     #navigation-mobile{
         padding: 0;
     }
+    #header-top{
+		display: none !important;
+	}
     #navigation-mobile ul{
         display: block !important;
     }

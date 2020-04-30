@@ -429,6 +429,9 @@ h3 {
     .vc_col-sm-6 {
         width: 100% !important;
     }
+    #header-top{
+		display: none !important;
+	}
     #navigation-mobile{
         padding: 0;
     }

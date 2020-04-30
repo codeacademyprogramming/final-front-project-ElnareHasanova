@@ -403,6 +403,9 @@ li.active_c .title-text h5 {
   display: flex;
   flex-wrap: wrap;
   }
+  #header-top{
+		display: none !important;
+	}
   #navigation-mobile{
     padding: 0;
 }
