@@ -228,17 +228,15 @@ h2.comments-title {
     border-top: #e6e6e6 solid 1px;
     padding-top: 40px;
 }
-#comment-46 {
+.main-comment{
+    border-bottom: #e6e6e6 solid 1px;
     border-top: none;
     padding-top: 0;
     margin-top: 0;
 }
-.comment-list .comment{
-    border-bottom: #e6e6e6 solid 1px;
-    margin-top: 33px;
-    padding-top: 40px;
+.new-comment{
+    padding: 30px 0;
 }
- 
 .comment-author-image {
     width: 135px;
     padding-right: 35px;
@@ -287,7 +285,7 @@ h2.comments-title {
 .comment-list .comment .comment {
     width: calc(100% - 50px);
 }
-.depth-1-last{
+.main-comment-second{
     border-bottom: none;
 }
 /* respond */
@@ -410,7 +408,7 @@ label.search{
     color: rgba(0, 125, 242, 1);
     font-weight: 600;
 }
- 
+
 .search-sidebar{
     position: absolute;
     left: 83%;
@@ -519,8 +517,8 @@ select{
 h3.tagcloud-head{
     margin-bottom: 20px;
 }
- 
- 
+
+
 /* RESPONSIVITY */
  
 @media (max-width: 768px) {
@@ -528,21 +526,9 @@ h3.tagcloud-head{
     .blog-main-title{
         padding: 0 !important;
     }
-    .h3{
-        height:0  !important;
-        overflow: hidden !important;
-    }
-    #navigation-mobile{
-        padding: 0;
-    }
-    #navigation-mobile ul{
-        display: block !important;
-    }
-  
     .custom-wrapper {
         width: 100%;
     }
-    
     .sidebar-inner{
         margin-left: 0 !important;
     }
@@ -584,17 +570,36 @@ h3.tagcloud-head{
       .full-page{
         overflow: hidden;
       }
+      .nav-box div.h3{
+          display: none;
+      }
 }
 @media (max-width: 375px) {
+    .nav-box div.h3{
+        display: none;
+    }
+    .arrow-right{
+        padding: 0;
+    }
+    .arrow-left{
+        padding: 0;
+    }
+    .nav-next{
+        padding-left: 0;
+    }
+    .comment-author-image{
+        display: none;
+    }
+    .comment-content-main{
+        width: 100%;
+    }
+    .comment-list-area{
+padding-left: 0;
+padding-right: 0;
+    }
     .d-flex{
         display: block !important;
     }
-  
-   .h3{
-       height:0;
-       overflow: hidden;
-   }
-   
     /* foooter */
 .row_list{
     display: block !important;
@@ -627,18 +632,7 @@ h3.tagcloud-head{
      justify-content: space-around;
      width: 175px !important;
    }
-   #navigation{
-       display: none;
-   }
-   #navigation-mobile{
-    padding: 0;
-}
-#navigation-mobile ul{
-    display: block !important;
-}
   
   
 }
  
- 
-

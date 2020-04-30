@@ -257,6 +257,65 @@ margin-bottom: 15px;
     background: rgba(0, 125, 242, 1) !important;
     color: #fff !important;
 }
+
+/* MODAL */
+.appointment-modal{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: none;
+    text-align: center;
+    z-index: 99999;
+    overflow: hidden auto;
+    background: rgba(11, 11, 11, 0.95);
+}
+.appointment-modal .container{
+        max-width: 730px;
+        margin: 0 auto;
+        background: #fff;
+        position: absolute;
+        left: 22%;
+        top:100%;
+        padding: 40px 50px 28px;
+        animation-delay: 0.2s;
+        animation-duration: 1s;
+        animation-name: form;
+        animation-fill-mode: forwards;
+}
+@keyframes form{
+0%{
+top:100%;
+}
+100%{
+top:0;
+}
+}
+.appointment-modal .container h2 {
+    font-size: 36px;
+    line-height: 52px;
+    margin-bottom: 0;
+}
+.appointment-modal .container p {
+    font-size: 15px;
+    line-height: 26px;
+    color: #888;
+    position: relative;
+    position: relative;
+    padding-bottom: 14px;
+}
+.appointment-modal form{
+    text-align: left;
+    padding-top: 30px;
+    background: #fff;
+    position: relative;
+}
+
 /* ==================================== */
 /*       Doctor-Single-John Harry       */
 /* ==================================== */
@@ -495,49 +554,6 @@ blockquote:before {
     padding-top: 114px;
     padding-right: 30px;
 }
-/* MODAL */
-.appointment-modal{
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    display: none;
-    text-align: center;
-    z-index: 99999;
-    overflow: hidden auto;
-    background: rgba(11, 11, 11, 0.95);
-}
-.appointment-modal .container{
-        max-width: 730px;
-        margin: 0 auto;
-        background: #fff;
-        padding: 40px 50px 28px;
-}
-.appointment-modal .container h2 {
-    font-size: 36px;
-    line-height: 52px;
-    margin-bottom: 0;
-}
-.appointment-modal .container p {
-    font-size: 15px;
-    line-height: 26px;
-    color: #888;
-    position: relative;
-    position: relative;
-    padding-bottom: 14px;
-}
-.appointment-modal form{
-    text-align: left;
-    padding-top: 30px;
-    background: #fff;
-    position: relative;
-}
-
 
 
 /* RESPONSIVITY */
@@ -548,15 +564,6 @@ blockquote:before {
         padding-left: 20px;
         padding-bottom: 53px;
         height: 360px;
-    }
-    #navigation-mobile{
-        padding: 0;
-    }
-    #navigation-mobile ul{
-        display: block !important;
-    }
-    #navigation{
-        display: none;
     }
 }
  
@@ -569,21 +576,8 @@ blockquote:before {
         padding-left: 30px !important;
      
     }
-    .content-right .content-main{
+    .content-right>div{
         display: block !important;
-    }
-    .column_inner{
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-    #navigation-mobile{
-        padding: 0;
-    }
-    #navigation-mobile ul{
-        display: block !important;
-    }
-    #navigation{
-        display: none;
     }
     .column-inner-dr{
         padding-right: 20px;
@@ -616,6 +610,13 @@ blockquote:before {
     #dr-info{
         width: 375px;
  
+
+    }
+    .dr-cont-info-inner div {
+        display: block !important;
+    }
+    .column{
+        padding-left: 15px !important;
     }
     .d-flex{
         display: block !important;

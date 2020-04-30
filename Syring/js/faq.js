@@ -16,7 +16,49 @@ $(function () {
      
       
     })
+    // ACCORDION
+  
+
+    let panel =$(".panel")
+    let acc = $(".accordion")
+
+  $('.opened2').hide();
+  $(".panel").hide()
+
+
+     $(document).on("click",".closed2",function (params) {
+      $('.opened2').hide();
+      $('.closed2').show();
+      $(this).hide();
+      $(this).next().show();
+      $(".accordion.active").removeClass("active");
+      $(this).parents(".accordion").addClass("active");
+      $(".panel").hide()
+      $(this).parents(".accordion").next().slideToggle();
+     })
+     $('.closed').show();
+
+  $(document).on('click', '.opened2', function () {
+      $(this).parents(".accordion").next().slideToggle();
+      $('.opened2').hide();
+      $('.closed2').show();
+      $(".accordion.active").removeClass("active");
+
+  })
+
+
+
+     
+     
+  
+    
+  
+
+   
    
 
+  
+  });
 
-})
+
+

@@ -24,7 +24,10 @@ $( function() {
      $(".overlay").css("opacity","1");
      $(".md-content").css("display","block");
      $(".fsb-modal").css("display","block");
+  
+     $(".fsb-modal").css("opacity","1");
   }
+
 
   
     

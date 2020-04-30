@@ -75,9 +75,6 @@ $(document).on('click', '.pricing-item',function () {
     $(this).addClass('selected');
 })
 
-$('.zero').counterUp({
-    delay: 10,
-    time: 1000
-})
+
 
 })

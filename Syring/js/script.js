@@ -75,7 +75,7 @@ $(document).on('click', '.closed', function () {
 })
 $('.closed').show();
 $(document).on('click', '.opened', function () {
-    $(this).parent().next().slideUp();
+    $(this).parent().next().slideToggle();
     $('.opened').hide();
     $('.closed').show();
 })
